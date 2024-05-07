@@ -24,6 +24,7 @@ bin/
 
 ### VS Code ###
 .vscode/
+UD6-Practica2-Diccionario.iml
 
 ### Mac OS ###
 .DS_Store
