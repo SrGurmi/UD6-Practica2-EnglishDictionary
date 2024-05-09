@@ -1,10 +1,10 @@
 ### Clase `WordStorage`
 
-La clase `WordStorage` se encarga de almacenar y gestionar palabras clasificadas por su inicial. Veamos sus componentes:
+La clase `WordStorage` se encarga de almacenar y gestionar palabras clasificadas por su inicial. Estos son sus componentes:
 
 #### Propiedades
 
--   `wordsByInitial`: Es un `Map` que utiliza como clave una letra inicial (`Character`) y como valor un conjunto (`Set`) de palabras (`String`). Este mapa permite agrupar palabras según la letra con la que comienzan.
+-   `wordsByInitial`: Es un `Map` que utiliza como clave una letra inicial (`Character`) y como valor un conjunto (`Set`) de palabras (`String`). Esta propiedad permite agrupar palabras según la letra con la que comienzan.
 
 #### Métodos
 
@@ -22,11 +22,11 @@ La clase `WordStorage` se encarga de almacenar y gestionar palabras clasificadas
 
 ### Clase `Sanitizer`
 
-La clase `Sanitizer` proporciona un método estático para sanitizar (normalizar) cadenas de texto. Veamos su único método:
+La clase `Sanitizer` es un método estático para sanitizar (normalizar) cadenas de texto.
 
-#### Métodos
+#### Método
 
-1.  `sanitize(String input)`: Método estático que toma una cadena de entrada, la limpia (elimina espacios al principio y final, convierte a minúsculas) y devuelve la versión normalizada de la cadena.
+1.  `sanitize(String input)`: Método estático que toma una cadena de entrada, la limpia (elimina espacios al principio y final y lo convierte a minúsculas) y devuelve la versión normalizada de la cadena.
 
 ### Clase `Main`
 
